@@ -7,13 +7,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.rogov.starWarriors.dto.Ship;
 import com.rogov.starWarriors.dto.parameterOfShip.GeneralParameter;
-import lombok.experimental.UtilityClass;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
 @Component
-@UtilityClass
 public class UtilOfSerializeAndDeserializeJson {
 
     public static String getTypeOfTransportFromJson(String json) {
